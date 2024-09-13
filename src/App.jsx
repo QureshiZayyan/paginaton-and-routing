@@ -7,18 +7,20 @@ import Navbar from './Components/Navbar';
 import Card from './Components/Card';
 const App = () => {
   return (
-    <Router>
-      <Navbar />
+    <>
+      <Router>
+        <Navbar />
 
-      <div id="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/cards" element={<Card />} />
-        </Routes>
-      </div>
-    </Router>
+        <div id="container">
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/cards" element={<Card />} />
+          </Routes>
+        </div>
+      </Router>
+    </>
   );
 };
 
