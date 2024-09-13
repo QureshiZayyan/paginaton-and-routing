@@ -12,3 +12,8 @@
 .card-body {
   height: 200px;
 }
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
