@@ -7,6 +7,8 @@
 
 .card {
   width: 200px;
+  background-color: darkgray;
+
 }
 
 .card-body {
@@ -16,4 +18,10 @@
 ul {
   display: flex;
   list-style-type: none;
+}
+
+body {
+  background-color: black;
+  color: white;
+
 }
