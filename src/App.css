@@ -21,7 +21,13 @@ ul {
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: rgb(165, 163, 163);
+  color: black;
 
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
