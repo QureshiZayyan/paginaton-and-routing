@@ -10,7 +10,6 @@ import './script.JS'
 const App = () => {
   return (
     <>
-
       <Router>
         <Navbar />
 
@@ -24,7 +23,7 @@ const App = () => {
         </div>
       </Router>
 
-      <nav aria-label="Page navigation example">
+      {/* <nav aria-label="Page navigation example">
         <ul className="pagination">
           <li className="page-item"><a className="page-link" href="#">Previous</a></li>
           <li className="page-item"><a className="page-link" href="#">1</a></li>
@@ -32,8 +31,9 @@ const App = () => {
           <li className="page-item"><a className="page-link" href="#">3</a></li>
           <li className="page-item"><a className="page-link" href="#">Next</a></li>
         </ul>
-      </nav>
+      </nav> */}
     </>
   )
 }
 export default App;
+
